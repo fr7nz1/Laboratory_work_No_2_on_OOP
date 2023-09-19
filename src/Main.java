@@ -2,9 +2,9 @@ import java.util.Scanner;
 import java.util.regex.*;
 
 public class Main {
-    public static <b> void main(String[] args) {
+    public static void main(String[] args) {
         String regex = "#([a-fA-F_0-9]{6})";
-        String str = "";
+        String str;
 
         while (true)
         {
